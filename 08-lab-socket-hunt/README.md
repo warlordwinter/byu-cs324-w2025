@@ -372,7 +372,7 @@ received.  Unlike the [initial request](#initial-request) you sent, which is
 always eight bytes, the size of the response is variable (but will never be
 more than 256 bytes).
 
-Finally, use `printf()` to print out the size of the respone, and call
+Finally, use `printf()` to print out the size of the response, and call
 `print_bytes()` to print out the contents of the message received by the
 server.
 
